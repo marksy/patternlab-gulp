@@ -117,9 +117,9 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
  * form validation, etc.
  */
 /*
- * Text Colors
- * 1) These are non-linked text colors, such as body copy.
- */
+  * Text Colors
+  * 1) These are non-linked text colors, such as body copy.
+  */
 /*
  * Heading Colors
  * 1) These are non-linked heading colors, such as h2, h3, etc.
@@ -491,8 +491,8 @@ iframe {
 figure {
   margin-bottom: 1em;
   /**
-   * Figure image base styles
-   */ }
+	 * Figure image base styles
+	 */ }
   figure img {
     margin-bottom: 0.5em; }
 
@@ -763,8 +763,8 @@ abbr {
   font-size: 1.5rem;
   line-height: 1.2;
   /**
-   * Tile value when inside featured tile parent selector
-   */ }
+	 * Tile value when inside featured tile parent selector
+	 */ }
   .c-block-tile--featured .c-block-tile__value {
     font-size: 2.5rem; }
     @media all and (min-width: 46.8em) {
@@ -787,7 +787,7 @@ abbr {
  */
 .c-btn {
   display: inline-block;
-  background: #3b4a20;
+  background: red;
   color: #fff;
   line-height: 1;
   font-weight: bold;
@@ -797,8 +797,8 @@ abbr {
   text-align: center;
   transition: background 0.2s ease;
   /**
-   * Disabled button
-   */ }
+	 * Disabled button
+	 */ }
   .c-btn:hover, .c-btn:focus {
     background: #5C832F;
     color: #fff; }
@@ -888,11 +888,11 @@ abbr {
   width: 100%;
   margin: -0.5em 0 1em;
   /**
-   * Carousel pagination
-   */
+	 * Carousel pagination
+	 */
   /**
-   * Carousel next button
-   */ }
+	 * Carousel next button
+	 */ }
   .carousel-controls a, .carousel-controls div {
     display: table-cell;
     padding: 0.5em; }
@@ -1089,6 +1089,7 @@ abbr {
   src: url("../fonts/icons.eot?#iefix") format("embedded-opentype"), url("../fonts/icons.woff") format("woff"), url("../fonts/icons.ttf") format("truetype"), url("../fonts/icons.svg#icons") format("svg");
   font-weight: normal;
   font-style: normal; }
+
 /**
  * Use the following CSS code if you want to use data attributes for inserting your icons
  */
@@ -1289,6 +1290,7 @@ abbr {
  */
 .social-list li {
   margin: 0 0.4rem 1em 0; }
+
 .social-list a {
   font-size: 1.6em; }
 
@@ -1417,6 +1419,7 @@ abbr {
   100% {
     padding: 1rem;
     max-height: 12em; } }
+
 /**
  * Overlay
  */
@@ -1447,8 +1450,8 @@ abbr {
     position: absolute; }
 
 /**
-* Overlay Intro
-*/
+ * Overlay Intro
+ */
 .c-overlay__intro {
   font-size: 1.5rem;
   color: #fff; }
@@ -1604,11 +1607,13 @@ abbr {
  */
 .text a {
   text-decoration: underline; }
+
 .text ul {
   list-style: disc;
   margin: 0 0 1em 1.2em; }
   .text ul ul {
     margin-bottom: 0; }
+
 .text ol {
   list-style: decimal;
   margin: 0 0 1em 1.5em; }
@@ -1649,58 +1654,6 @@ abbr {
   margin-bottom: 2rem; }
 
 /*------------------------------------*\
-    #FEEDBACK
-\*------------------------------------*/
-/**
- * 1) Feedback consists of components that give information back to the user. Examples include progress bars, progress wheels, etc.
- */
-/**
-* Progress bar
-*/
-.c-progress {
-  -webkit-appearance: none;
-  appearance: none;
-  border: 1px solid rgba(0, 0, 0, 0.5);
-  background: #cdcaa2;
-  background-size: auto;
-  width: 100%;
-  max-width: 300px;
-  height: 0.5rem;
-  border-radius: 6px;
-  margin-bottom: 1em; }
-
-.c-progress::-moz-progress-bar {
-  background-color: red;
-  background-image: linear-gradient(to right, red, #f06d06, yellow, green);
-  background-size: 300px 50px;
-  border-radius: 6px; }
-
-.c-progress::-webkit-progress-value {
-  background-color: red;
-  background-image: linear-gradient(to right, red, #f06d06, yellow, green);
-  background-size: 300px 50px;
-  border-radius: 6px; }
-
-progress[value]::-webkit-progress-bar {
-  border-radius: 6px; }
-
-.anim::-moz-progress-bar {
-  -moz-transition: width 4s ease; }
-
-.anim::-webkit-progress-value {
-  -webkit-transition: width 4s ease;
-  -o-transition: width 4s ease;
-  transition: width 4s ease; }
-
-.c-progress.start::-moz-progress-bar {
-  width: 0% !important;
-  background: #cdcaa2 !important; }
-
-.c-progress.start::-webkit-progress-value {
-  width: 0% !important;
-  background: #cdcaa2 !important; }
-
-/*------------------------------------*\
     $LAYOUT
 \*------------------------------------*/
 /*------------------------------------*\
@@ -1724,8 +1677,8 @@ progress[value]::-webkit-progress-bar {
   display: flex;
   flex-direction: column;
   /**
-   * Sidebar
-   */ }
+	 * Sidebar
+	 */ }
   @media all and (min-width: 50em) {
     .l--two-col .l-main {
       width: 70%;
@@ -1791,6 +1744,7 @@ progress[value]::-webkit-progress-bar {
     width: 50%; }
     .g-3up > .gi:nth-of-type(2n+1) {
       clear: left; } }
+
 @media all and (min-width: 50em) {
   .g-3up > .gi {
     width: 33.3333333%; }
@@ -1808,6 +1762,7 @@ progress[value]::-webkit-progress-bar {
     width: 50%; }
     .g-4up > .gi:nth-of-type(2n+1) {
       clear: both; } }
+
 @media all and (min-width: 50em) {
   .g-4up > .gi {
     width: 25%; }
@@ -1834,6 +1789,7 @@ progress[value]::-webkit-progress-bar {
     width: 50%; }
     .g-max4 > .gi:nth-of-type(2n+1) {
       clear: both; } }
+
 @media all and (min-width: 39.8em) {
   .g-max4 > .gi {
     width: 33.3333333%; }
@@ -1841,6 +1797,7 @@ progress[value]::-webkit-progress-bar {
       clear: none; }
     .g-max4 > .gi:nth-of-type(3n+1) {
       clear: left; } }
+
 @media all and (min-width: 50em) {
   .g-max4 > .gi {
     width: 25%; }
@@ -1857,6 +1814,7 @@ progress[value]::-webkit-progress-bar {
   width: 50%; }
   .g-max5 > .gi:nth-of-type(2n+1) {
     clear: both; }
+
 @media all and (min-width: 39.8em) {
   .g-max5 > .gi {
     width: 33.3333333%; }
@@ -1864,6 +1822,7 @@ progress[value]::-webkit-progress-bar {
       clear: none; }
     .g-max5 > .gi:nth-of-type(3n+1) {
       clear: left; } }
+
 @media all and (min-width: 46.8em) {
   .g-max5 > .gi {
     width: 25%; }
@@ -1871,6 +1830,7 @@ progress[value]::-webkit-progress-bar {
       clear: none; }
     .g-max5 > .gi:nth-of-type(4n+1) {
       clear: left; } }
+
 @media all and (min-width: 48em) {
   .g-max5 > .gi {
     width: 20%; }
@@ -1878,5 +1838,3 @@ progress[value]::-webkit-progress-bar {
       clear: none; }
     .g-max5 > .gi:nth-of-type(5n+1) {
       clear: left; } }
-
-/*# sourceMappingURL=style.css.map */

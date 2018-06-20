@@ -8,6 +8,7 @@
     "browser-sync": "^2.0.0",
     "gulp": "gulpjs/gulp#4.0",
     "minimist": "^1.2.0",
+    "node-sass": "^4.9.0",
     "patternlab-node": "^2.0.0",
     "styleguidekit-assets-default": "^3.0.0",
     "styleguidekit-mustache-default": "^3.0.0"
@@ -27,7 +28,9 @@
   "author": "Brian Muenzenmeyer",
   "scripts": {
     "postinstall": "node scripts/postinstall.js",
-    "gulp": "gulp -- "
+    "gulp": "gulp -- ",
+    "sass:watch": "node-sass --watch source/css/*.scss -o source/css",
+    "start": "gulp patternlab:serve"
   },
   "license": "MIT",
   "engines": {
