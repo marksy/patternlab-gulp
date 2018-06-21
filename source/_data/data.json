@@ -8,6 +8,7 @@
     "htmlClass": "pl",
     "bodyClass": "body",
     "btnText" : "Button",
+    "btnClass" : "alt",
     "progress" : true,
     "max" : "100",
     "progressValue" : "85",
@@ -54,37 +55,37 @@
     "primaryNav" : [
         {
             "label": "About",
-            "url": "link.pages-about"
+            "url": "#"
         },
         {
             "label": "Blog",
-            "url": "link.pages-blog-index"
+            "url": "#"
         },
         {
             "label": "Contact",
-            "url": "link.pages-contact"
+            "url": "#"
         },
         {
             "label": "Login",
-            "url": "link.pages-login"
+            "url": "#"
         }
     ],
     "footerNav" : [
         {
             "label": "About",
-            "url": "link.pages-about"
+            "url": "#"
         },
         {
             "label": "Blog",
-            "url": "link.pages-blog-index"
+            "url": "#"
         },
         {
             "label": "Contact",
-            "url": "link.pages-contact"
+            "url": "#"
         },
         {
             "label": "Login",
-            "url": "link.pages-login"
+            "url": "#"
         }
     ],
     "url" : "#",
@@ -229,8 +230,8 @@
 		{
 			"url" : "#",
 			"number" : "10"
-		}				
-	],			
+		}
+	],
     "sectionBlock" : true,
     "textButton" : true,
 	"overlayMessage" : "Let's go on a hike and climb in elevation",

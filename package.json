@@ -8,7 +8,9 @@
     "browser-sync": "^2.0.0",
     "gulp": "gulpjs/gulp#4.0",
     "minimist": "^1.2.0",
+    "modularscale-sass": "^3.0.5",
     "node-sass": "^4.9.0",
+    "normalize.css": "^8.0.0",
     "patternlab-node": "^2.0.0",
     "styleguidekit-assets-default": "^3.0.0",
     "styleguidekit-mustache-default": "^3.0.0"
